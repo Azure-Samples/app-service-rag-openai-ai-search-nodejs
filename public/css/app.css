@@ -1,0 +1,349 @@
+/* Main app styles */
+html, body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+/* Card styles for chat messages */
+.user-card {
+    border-radius: 1rem 1rem 0.25rem 1rem;
+    background-color: #E3F2FD;
+    border: none;
+}
+
+.assistant-card {
+    border-radius: 1rem 1rem 1rem 0.25rem;
+    background-color: #E8F5E9;
+    border: none;
+}
+
+/* Avatar badges */
+.avatar-badge {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 0.75rem;
+    color: white;
+}
+
+.user-avatar-badge {
+    background-color: #1976D2;
+}
+
+.assistant-avatar-badge {
+    background-color: #2E7D32;
+}
+
+/* Loading indicator - simplified but keeping essential animation */
+.loading-indicator {
+    display: flex;
+    align-items: center;
+    min-height: 20px;
+    padding: 0.5rem;
+}
+
+.loading-indicator span {
+    height: 0.5rem;
+    width: 0.5rem;
+    margin: 0 0.125rem;
+    background-color: #6c757d;
+    border-radius: 50%;
+    display: inline-block;
+    animation: bounce 1.4s infinite ease-in-out both;
+}
+
+.loading-indicator span:nth-child(1) {
+    animation-delay: -0.32s;
+}
+
+.loading-indicator span:nth-child(2) {
+    animation-delay: -0.16s;
+}
+
+@keyframes bounce {
+    0%, 80%, 100% { transform: scale(0.6); opacity: 0.6; }
+    40% { transform: scale(1.0); opacity: 1; }
+}
+
+/* Citation styling is now handled by Bootstrap's badge components */
+
+/* Citation overlay and modal styles */
+.citation-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.citation-modal {
+    background-color: #fff;
+    border-radius: 0.5rem;
+    max-width: 700px;
+    width: 90%;
+    max-height: 80vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.citation-modal-header {
+    padding: 1rem;
+    border-bottom: 1px solid #dee2e6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.citation-modal-title {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.citation-modal-body {
+    padding: 1rem;
+    overflow-y: auto;
+    max-height: 60vh;
+}
+
+.citation-modal-body pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-family: var(--bs-font-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace);
+    line-height: 1.5;
+    margin: 0;
+    overflow-y: auto;
+}
+
+.citation-close-button {
+    background: transparent;
+    border: 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.citation-close-button:hover {
+    opacity: 0.75;
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+    .user-card, .assistant-card {
+        max-width: 90% !important;
+    }
+    
+    .citation-modal {
+        width: 95%;
+    }
+}
+
+/* Citation styling */
+.citation-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #1976D2;
+    color: white;
+    border-radius: 50%;
+    width: 1.2rem;
+    height: 1.2rem;
+    font-size: 0.75rem;
+    font-weight: bold;
+    margin: 0 0.125rem;
+    vertical-align: middle;
+}
+
+/* Citation overlay and modal styles */
+.citation-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.citation-modal {
+    background-color: #fff;
+    border-radius: 0.5rem;
+    max-width: 700px;
+    width: 90%;
+    max-height: 80vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.citation-modal-header {
+    padding: 1rem;
+    border-bottom: 1px solid #dee2e6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.citation-modal-title {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.citation-modal-body {
+    padding: 1rem;
+    overflow-y: auto;
+    max-height: 60vh;
+}
+
+.citation-modal-body pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-family: var(--bs-font-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace);
+    line-height: 1.5;
+    margin: 0;
+    overflow-y: auto;
+}
+
+.citation-close-button {
+    background: transparent;
+    border: 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.citation-close-button:hover {
+    opacity: 0.75;
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+    .user-card, .assistant-card {
+        max-width: 90% !important;
+    }
+    
+    .citation-modal {
+        width: 95%;
+    }
+}
+
+/* Loading indicator span */
+.loading-indicator span {
+    height: 0.5rem;
+    width: 0.5rem;
+    margin: 0 0.125rem;
+    background-color: #6c757d;
+    border-radius: 50%;
+    display: inline-block;
+    animation: bounce 1.4s infinite ease-in-out both;
+}
+
+.loading-indicator span:nth-child(1) {
+    animation-delay: -0.32s;
+}
+
+.loading-indicator span:nth-child(2) {
+    animation-delay: -0.16s;
+}
+
+@keyframes bounce {
+    0%, 80%, 100% { transform: scale(0.6); opacity: 0.6; }
+    40% { transform: scale(1.0); opacity: 1; }
+}
+
+/* Citation styling */
+.citation-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 50%;
+  width: 1.2rem;
+  height: 1.2rem;
+  font-size: 0.75rem;
+  font-weight: bold;
+  margin: 0 0.125rem;
+  vertical-align: middle;
+}
+
+/* Citation tooltip */
+.citation-tooltip {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 600px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  z-index: 1001;
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+.citation-tooltip::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+
+.citation-tooltip.show {
+  display: block;
+}
+
+.citation-tooltip-title {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  border-bottom: 1px solid #dee2e6;
+  padding-bottom: 0.5rem;
+}
+
+.citation-tooltip-content {
+  font-size: 0.875rem;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  font-family: monospace;
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+  .user-card, .assistant-card {
+    max-width: 90% !important;
+  }
+}

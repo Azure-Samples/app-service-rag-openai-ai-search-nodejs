@@ -1,0 +1,9 @@
+name: expressjs-rag-openai-ai-search
+infra:
+  provider: bicep
+  path: infra
+services:
+  web:
+    project: .
+    language: js
+    host: appservice

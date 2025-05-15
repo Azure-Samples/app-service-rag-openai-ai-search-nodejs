@@ -1,0 +1,36 @@
+{
+  "name": "expressjs-rag",
+  "version": "1.0.0",
+  "description": "Retrieval Augmented Generation (RAG) demo using Express.js, Azure OpenAI, and Azure AI Search",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rag",
+    "azure",
+    "openai",
+    "ai-search",
+    "expressjs"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@azure/identity": "^4.9.1",
+    "@azure/openai": "^2.0.0",
+    "dotenv": "^16.5.0",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "morgan": "^1.10.0",
+    "openai": "^4.98.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
