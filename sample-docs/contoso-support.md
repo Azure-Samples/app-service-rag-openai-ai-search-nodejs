@@ -2,7 +2,7 @@
 
 ## Overview
 
-This document outlines the support services offered by Contoso Electronics to our customers. We are committed to providing exceptional customer service and technical support for all our products.
+This document outlines the support services offered by Contoso, Ltd. to our customers. We are committed to providing exceptional customer service and technical support for all our products.
 
 ## Support Channels
 

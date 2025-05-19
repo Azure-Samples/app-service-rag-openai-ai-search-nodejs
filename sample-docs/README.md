@@ -1,4 +1,4 @@
-# Sample Documents for Contoso Electronics RAG Application
+# Sample Documents for Contoso, Ltd. RAG Application
 
 This directory contains sample documents that can be used to demonstrate the Retrieval Augmented Generation (RAG) capabilities of Azure OpenAI on Your Data.
 

@@ -1,8 +1,8 @@
-# Contoso Electronics Privacy Policy
+# Contoso, Ltd. Privacy Policy
 
 ## Introduction
 
-At Contoso Electronics, we take your privacy seriously. This Privacy Policy explains how we collect, use, disclose, transfer, and store your personal information. Please take a moment to familiarize yourself with our privacy practices.
+At Contoso, Ltd., we take your privacy seriously. This Privacy Policy explains how we collect, use, disclose, transfer, and store your personal information. Please take a moment to familiarize yourself with our privacy practices.
 
 ## Information We Collect
 
@@ -88,7 +88,7 @@ You can request a copy of your data in a structured, commonly used format.
 
 ## Children's Privacy
 
-Contoso Electronics does not knowingly collect personal information from children under 13 without parental consent. If we learn that we have collected personal information of a child under 13, we will take steps to delete the information as soon as possible.
+Contoso, Ltd. does not knowingly collect personal information from children under 13 without parental consent. If we learn that we have collected personal information of a child under 13, we will take steps to delete the information as soon as possible.
 
 ## International Data Transfers
 
@@ -104,6 +104,6 @@ If you have questions about our Privacy Policy, please contact our Privacy Team:
 
 - Email: privacy@contosoelectronics.com
 - Phone: 1-800-PRIVACY (774-8229)
-- Mail: Contoso Electronics Privacy Office, 123 Tech Boulevard, Seattle, WA 98101
+- Mail: Contoso, Ltd. Privacy Office, 123 Tech Boulevard, Seattle, WA 98101
 
 Last Updated: March 15, 2025

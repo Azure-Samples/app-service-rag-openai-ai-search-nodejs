@@ -1,8 +1,8 @@
-# Contoso Electronics Product Information
+# Contoso, Ltd. Product Information
 
 ## Company Overview
 
-Contoso Electronics is a leading manufacturer of consumer electronics with headquarters in Seattle, Washington. Founded in 2005, the company specializes in smartphones, laptops, smart home devices, and wearable technology. With a commitment to innovation and quality, Contoso Electronics has established itself as a trusted brand in the global market.
+Contoso, Ltd. is a leading manufacturer of consumer electronics with headquarters in Seattle, Washington. Founded in 2005, the company specializes in smartphones, laptops, smart home devices, and wearable technology. With a commitment to innovation and quality, Contoso, Ltd. has established itself as a trusted brand in the global market.
 
 ## Product Catalog
 
@@ -78,7 +78,7 @@ Contoso Electronics is a leading manufacturer of consumer electronics with headq
 
 ## Warranty Information
 
-All Contoso Electronics products come with a standard 1-year limited warranty covering manufacturing defects. Extended warranty options are available for purchase:
+All Contoso, Ltd. products come with a standard 1-year limited warranty covering manufacturing defects. Extended warranty options are available for purchase:
 
 - **Contoso Care Basic**: Extends warranty to 2 years
 - **Contoso Care Plus**: Extends warranty to 3 years and covers accidental damage
@@ -90,7 +90,7 @@ Products can be returned within 30 days of purchase for a full refund. Items mus
 
 ## Environmental Commitment
 
-Contoso Electronics is committed to reducing environmental impact through:
+Contoso, Ltd. is committed to reducing environmental impact through:
 - Sustainable packaging using recycled materials
 - Energy-efficient manufacturing processes
 - Product recycling program

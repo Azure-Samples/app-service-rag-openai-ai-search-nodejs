@@ -1,15 +1,15 @@
-# Contoso Electronics Frequently Asked Questions
+# Contoso, Ltd. Frequently Asked Questions
 
 ## General Questions
 
-### What is Contoso Electronics' return policy?
-All products purchased directly from Contoso Electronics can be returned within 30 days of purchase for a full refund. Products must be in original packaging with all accessories included. For products purchased from authorized retailers, please refer to their specific return policies.
+### What is Contoso, Ltd.' return policy?
+All products purchased directly from Contoso, Ltd. can be returned within 30 days of purchase for a full refund. Products must be in original packaging with all accessories included. For products purchased from authorized retailers, please refer to their specific return policies.
 
 ### How can I check the status of my order?
 You can check your order status by visiting our website at orders.contosoelectronics.com and entering your order number and email address. Alternatively, you can contact our customer service team at 1-800-CONTOSO (266-8676).
 
-### Does Contoso Electronics ship internationally?
-Yes, Contoso Electronics ships to over 100 countries worldwide. International shipping costs and delivery times vary by location. Import duties and taxes may apply depending on your country's regulations.
+### Does Contoso, Ltd. ship internationally?
+Yes, Contoso, Ltd. ships to over 100 countries worldwide. International shipping costs and delivery times vary by location. Import duties and taxes may apply depending on your country's regulations.
 
 ### How can I find an authorized Contoso retailer?
 You can find authorized Contoso retailers by using our store locator tool on our website. Authorized retailers are certified to sell genuine Contoso products and can offer official warranty service.
@@ -20,7 +20,7 @@ You can find authorized Contoso retailers by using our store locator tool on our
 Contoso smartphones receive guaranteed software updates for 5 years from the launch date of the device. This includes both security patches and major operating system upgrades.
 
 ### Are Contoso products environmentally friendly?
-Yes, Contoso Electronics is committed to sustainability. Our products use recycled materials where possible, and we've eliminated plastic from our packaging. Our manufacturing facilities are powered by 85% renewable energy, and we have a goal to be carbon neutral by 2030.
+Yes, Contoso, Ltd. is committed to sustainability. Our products use recycled materials where possible, and we've eliminated plastic from our packaging. Our manufacturing facilities are powered by 85% renewable energy, and we have a goal to be carbon neutral by 2030.
 
 ### Do Contoso laptops come with pre-installed software?
 Contoso laptops come with our Contoso OS operating system pre-installed. We don't include unnecessary third-party software. Basic productivity tools such as Contoso Office Suite are included with a 1-year subscription.

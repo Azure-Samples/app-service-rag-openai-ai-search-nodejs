@@ -1,8 +1,8 @@
-# Contoso Electronics Limited Warranty Terms
+# Contoso, Ltd. Limited Warranty Terms
 
 ## Warranty Coverage
 
-Contoso Electronics ("Contoso") warrants that its hardware products are free from defects in materials and workmanship under normal use during the warranty period. The warranty period begins on the date of retail purchase by the original end-user purchaser.
+Contoso, Ltd. ("Contoso") warrants that its hardware products are free from defects in materials and workmanship under normal use during the warranty period. The warranty period begins on the date of retail purchase by the original end-user purchaser.
 
 ### Warranty Periods by Product Type
 
@@ -126,7 +126,7 @@ For warranty service or questions:
 - Phone: 1-800-WARRANTY (927-7268)
 - Email: warranty@contosoelectronics.com
 
-Contoso Electronics Corporation
+Contoso, Ltd. Corporation
 123 Tech Boulevard
 Seattle, WA 98101
 United States
